@@ -19,6 +19,14 @@ $(document).ready(function() {
    $("#color-background").addClass("red-background");
  });
 
+ $("button#dark-text").click(function(){
+   $("body").removeClass();
+   $("body").addClass("dark-text");
+ });
 
+ $("button#light-text").click(function(){
+   $("body").removeClass();
+   $("body").addClass("light-text");
+ });
 
 });
