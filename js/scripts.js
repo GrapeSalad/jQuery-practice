@@ -26,7 +26,12 @@ $(document).ready(function() {
 
  $("button#light-text").click(function(){
    $("body").removeClass();
-   $("body").addClass("light-text");
+   $("body").toggleClass("light-text");
+ });
+
+ $("button#toggle-text").click(function(){
+   $("body").toggleClass("light-text");
+   $("body").toggleClass("dark-text");
  });
 
 });
